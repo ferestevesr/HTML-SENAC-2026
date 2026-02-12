@@ -1,0 +1,26 @@
+header{
+    text-align: center;
+    font-size: 50px;
+    
+
+
+
+}
+div {
+    background-color: yellow;
+    padding: 250px;
+    margin-top: 150px;
+    border-left: solid 200px white;
+    border-right: solid 200px white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.alinhado {
+    background-color: black;
+    color:antiquewhite;
+    text-align: center;
+    padding: 20px;
+    border-left: 350px solid yellow;
+    border-right: 350px solid yellow;
+    font-family: 'Times New Roman', Times, serif;
+}

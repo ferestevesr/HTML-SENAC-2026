@@ -1,0 +1,11 @@
+.texto { 
+    border: rebeccapurple solid 10px;
+  
+}
+
+.conteudo {
+    border: red solid 10px;
+    width: 50%;
+    margin: 0 auto;
+   
+}

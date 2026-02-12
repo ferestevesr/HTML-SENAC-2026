@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body { 
+background-color: #2c3e50;
+font-size: 20px;
+color: rgb(255, 255, 255);
+font-family: "Roboto Condensed", sans-serif;    
+}
+
+.dia_semana h2{
+color: #f1c40f;
+
+}
+
+.segunda h3{
+border-style: solid;
+border-color: black;
+background-color: #f1c40f;
+color:  black;
+}
+
+.terca h3{
+    border-style: solid;
+    border-color: black;
+    background-color: #f1c40f;
+    color:  black;
+}
+
+.Soft {
+
+color: #e74c3c;
+}
+.quarta h3{
+    border-style: solid;
+    border-color: black;
+    background-color: #f1c40f;
+    color:  black;
+}
+
+.git {
+    color: #e74c3c;
+}

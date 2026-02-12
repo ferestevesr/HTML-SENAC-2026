@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+.principal{
+
+    background-color: #ecd0a6d0;
+    align-items: center;
+    border-left: 250px solid white;
+    border-right: 250px solid white;
+    font-family: "Roboto Condensed", sans-serif;
+    height: 50%;
+}
+.data {
+    color: #0077b6;
+    font-size: 13px;
+    
+}
+.post   {
+padding: 10px;
+
+}
+
+.post h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.conteudo{
+
+}

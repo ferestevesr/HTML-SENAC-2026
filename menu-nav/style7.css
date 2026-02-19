@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(163, 163, 163);
+   
+}
+/* Centralizando elemento*/
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/*nav*/
+.menu {
+    list-style: none;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.menu li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/*Imagem*/
+.imagem img {
+    width: 300px;   
+    align-items: center;
+    
+
+}
+
+.botao a{
+background-color: black;
+color: white;
+border-radius: 18px;
+text-decoration: none;
+padding: 12px 8px;
+width: fit-content;
+display: inline-block;
+
+}
+.botao a:hover{
+    background-color: rgb(0, 77, 51);
+}

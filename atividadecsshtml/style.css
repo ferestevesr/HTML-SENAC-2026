@@ -1,42 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background-color: #78a3ff7e;
+    font-family: Arial, Helvetica, sans-serif;
 
-body { 
-background-color: #2c3e50;
-font-size: 20px;
-color: rgb(255, 255, 255);
-font-family: "Roboto Condensed", sans-serif;    
-}
-
-.dia_semana h2{
-color: #f1c40f;
 
 }
 
-.segunda h3{
+
+
+h1 {
+text-align: center;
 border-style: solid;
 border-color: black;
-background-color: #f1c40f;
-color:  black;
+border-width: 4px;
+
+
 }
 
-.terca h3{
-    border-style: solid;
-    border-color: black;
-    background-color: #f1c40f;
-    color:  black;
+h4 {
+    text-align: center;
 }
 
-.Soft {
+ul {
+    text-align: center;
 
-color: #e74c3c;
-}
-.quarta h3{
-    border-style: solid;
-    border-color: black;
-    background-color: #f1c40f;
-    color:  black;
+    background-color: blueviolet;
+    font-size: 50px;
+    color: #fff;
 }
 
-.git {
-    color: #e74c3c;
+.carro {
+    color: #081a41;
+}
+#cabecalho{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aquamarine;
+}
+
+
+.Planetas h1 {
+    text-align: center;
+    font-size: 50px;
+    color: hotpink;
+}
+
+.Planetas ul li{
+    text-align: center;
+    color: #4b0808;
+    font-family: Arial, Helvetica, sans-serif;
 }

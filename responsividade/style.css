@@ -1,0 +1,25 @@
+body {
+
+    background-color: #3a5a40;
+}
+
+
+
+@media (max-width:600px){
+    body{
+        background-color: rgb(110, 110, 110);
+    }
+    h1 {
+        font-size: 100px;
+    }
+    p{
+        display: none;
+    }
+}
+
+@media (max-width:1000px){
+    body{
+        background-color: red;
+        
+    }
+}

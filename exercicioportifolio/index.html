@@ -6,31 +6,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Fernando Esteves</title>
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/hearder.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/intro.css">
+    <link rel="stylesheet" href="css/skills.css">
     <link rel="shortcut icon" type="img/png" href="img/logo.png">
+    <link rel="stylesheet" href="css/recent-work.css">
 </head>
 
 <body>
-    <header>
-        <h1>Meu portifólio web</h1>
+    <header id="container">
+        <!-- Menu de navegação-->
+        <div class="navbar">
+            <!--Logo-->
+            <div class="logo">
+                <a href="#"> <img src="img/logo.png" alt="Logo"></a>
+            </div>
+            <div class="menu-opener">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav>
+            <a href="#">Blog</a>
+            <a href="#" class="button">Contato</a>
+        </nav>
     </header>
-    
-    <section class="">
-        <div>
-            <h2> </h2>
-            <img src="" alt="">
-        </div>
 
-        <div>
-            <h2> </h2>
-            <img src="" alt="">
-        </div>
+    <section class="hero container">
+        <h1>Front-End, Back-end & Banco de Dados</h1>
+        <h2>Eu codifico projetos bonitos e amo o que eu faço</h2>
 
-        <div>
-            <h2> </h2>
-            <img src="" alt="">
-        </div>
+        <img class="hero-avatar" src="img/avatar.svg" alt="foto">
+        <img class="hero-device" src="img/hero-devices.svg" alt="foto">
     </section>
 
+    <!-- Section Intro-->
+    <section class="intro">
+        <!-- Aqui será meu elemento roxo-->
+        <div class="container">
+            <!--Aqui vou por meu texto-->
+            <div class="box">
+                <p class="title">Oi, eu sou Fernando Esteves, tudo bem?</p>
+                <p class="subtitle">Sou desenvolvedor Junior, curioso por natureza e motivado a aprender todos os dias.
+                    Tenho interesse em entender como as coisas funcionam por trás de código e gosto
+                    de transformar ideias em soluções praticas. Estou constatemente buscando aprimorar minhas
+                    habilidades, aprender
+                    novas tecnologias e enfrentar desafios que contribuam para a minha evolução na área de tecnologia.
+                </p>
+
+            </div>
+        </div>
+
+    </section>
+    <!--Área de habilidades -->
+    <section class="skills">
+        <!--essa parte é para o efeito de sobreposição-->
+        <div class="skills-overlay"></div>
+ 
+        <div class="container">
+            <div class="grid">
+                <div class="skills">
+                    <div class="skill-icon">
+                        <img src="img/design.svg" alt="icone">
+                    </div>
+                    <p class="skills-title">Backend Developer</p>
+                    <p class="skills-desc">
+                        Gosto de construir a lógica por trás das aplicações,
+                        criar APIs e estruturar sistemas escaláveis
+                    </p>
+                    <p class="skills-sub">Tecnologias que uso</p>
+                    <p class="skills-txt">Python, C#, REST API, SQL</p>
+                    <p class="skills-sub">Ferramentas que uso</p>
+                    <div class="skills-txt">
+                        <ul>
+                            <li>PYCharm</li>
+                            <li>Sequelize</li>
+                            <li>Postman</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+ 
+ 
+                </div>
+                <div class="skills"> 
+                    <div class="skill-icon">
+                        <img src="img/code.svg" alt="icone">
+                    </div>
+                    <p class="skills-title">Front-End Developer</p>
+                    <p class="skills-desc"> Gosto de codificar projetos do zero, trazer ideias a vida no navegador.</p>
+                    <p class="skills-sub">Linguagens que uso</p>
+                    <p class="skills-txt">HTML, CSS, JavaScript e ReactJS</p>
+                    <p class="skills-sub">Ferramentas que uso</p>
+                    <div class="skills-txt">
+                        <ul>
+                            <li>VScode</li>
+                            <li>Bootstrap</li>
+                            <li>Taliwind</li>
+                            <li>Photoshop</li>
+                            <li>Figma</li>
+                        </ul>
+                    </div>
+ 
+ 
+                </div>
+                <div class="skills">
+                    <div class="skill-icon">
+                        <img src="img/video.svg" alt="icone">
+                    </div>
+                    <p class="skills-title">Software Developer</p>
+                    <p class="skills-desc">
+                        Gosto de resolver problemas com códigos, estruturar algoritmos e desenvolver aplicações completas.
+                    </p>
+                    <p class="skills-sub">Linguagens que uso</p>
+                    <p class="skills-txt">JavaScript, C#, Python, TypeScript</p>
+                    <p class="skills-sub">Ferramentas que uso</p>
+                    <div class="skills-txt">
+                        <ul>
+                            <li>VScode</li>
+                            <li>GitHub</li>
+                            <li>Terminal</li>
+                
+                            
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+ 
+    </section>
+    <section class="recent-work container">
+        <p class="title">Meus trabalhos recentes</p>
+
+        <p class="subtitle">Aqui estão alguns dos meus trabalhos que ja fiz. Quer ver mais?</p>
+
+        <div class="grid">
+            ...
+        </div>
+
+    </section>
 
 </body>
 <footer>

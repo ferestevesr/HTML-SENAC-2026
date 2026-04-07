@@ -1,0 +1,28 @@
+.collab{
+    margin-top: 3rem;
+    background-color: var(--foreground);
+    color: var(--primary-foreground);
+    padding: 8rem 2rem;
+    text-align: center;
+}
+.collab .title{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+}
+.collab .subtitle{
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    margin-bottom: 3rem;
+}
+.collab .button{
+    border-color: white;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.collab .button:hover{
+    background-color: rgb(255, 255, 255);
+    color: var(--foreground);
+}

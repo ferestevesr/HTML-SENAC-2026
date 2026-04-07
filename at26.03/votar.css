@@ -1,0 +1,23 @@
+.card{
+    background-color: rgb(187, 167, 125);
+    padding: 20px;
+    text-align: center  ;
+    
+    
+}
+
+button{
+    border-radius: 9px 9px 9px 9px ;
+    color: aliceblue;
+    background-color: rgb(255, 140, 0);
+    padding: 10px;
+}
+
+input{
+    padding: 3px;
+    border-color: orange;
+}
+
+h1, p, strong{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}

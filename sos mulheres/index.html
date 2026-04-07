@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VioletaSegura</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #121212;
+      color: #fff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 50px;
+      background: #1a1a1a;
+    }
+
+    header h1 {
+      color: #A020F0;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #fff;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #FF4D8D;
+    }
+
+    .hero {
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: linear-gradient(135deg, #6A0DAD, #121212);
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      max-width: 500px;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      padding: 12px 25px;
+      border: none;
+      margin: 5px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .btn-primary {
+      background: #FF4D8D;
+      color: white;
+    }
+
+    .btn-secondary {
+      background: transparent;
+      border: 2px solid #FF4D8D;
+      color: #FF4D8D;
+    }
+
+    section {
+      padding: 60px 50px;
+    }
+
+    .cards {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #A020F0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1a1a1a;
+      margin-top: 40px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>VioletaSegura</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Como Funciona</a>
+      <a href="ajuda.html">Ajuda</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Você não está sozinha</h2>
+    <p>Um aplicativo feito para proteger, apoiar e dar voz às mulheres.</p>
+    <div>
+      <button class="btn btn-primary" href="">Baixar App</button>
+      <button class="btn btn-secondary" href="ajuda.html">Pedir Ajuda</button>
+    </div>
+  </section>
+
+  <section>
+    <h2>Como Funciona</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>🚨 Emergência</h3>
+        <p>Acione ajuda com um clique rápido.</p>
+      </div>
+      <div class="card">
+        <h3>📍 Localização</h3>
+        <p>Compartilhe sua localização em tempo real.</p>
+      </div>
+      <div class="card">
+        <h3>🧠 Apoio</h3>
+        <p>Informações e suporte psicológico.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Recursos</h2>
+    <div class="cards">
+      <div class="card">Denúncia anônima</div>
+      <div class="card">Contatos de emergência</div>
+      <div class="card">Chat de apoio</div>
+      <div class="card">Mapa de delegacias</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Nossa Missão</h2>
+    <p>Combater a violência contra a mulher usando tecnologia e informação acessível.</p>
+  </section>
+
+  <footer>
+    <p>© 2026 VioletaSegura - Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>

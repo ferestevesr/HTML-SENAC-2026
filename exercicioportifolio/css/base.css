@@ -1,12 +1,12 @@
 :root {
 
-    --background: white;
-    --foreground: #6e07f3;
-    --primary: #141c3a;
-    --primary-light: #cdd3eb;
-    --primary-foreground: white;
-    --secondary: #5be8b9;
-    --secondary-foreground: #141c3a;
+    --background: rgb(204, 219, 206);
+    --foreground: #2e3935;
+    --primary: #000000;
+    --primary-light: #000000;
+    --primary-foreground: rgb(255, 255, 255);
+    --secondary: #fdfdfd;
+    --secondary-foreground:     #f1f1f1;
 }
 
 
